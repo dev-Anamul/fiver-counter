@@ -14,12 +14,21 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container d-flex justify-content-center alings-items-center">
+    <div class="container mt-5">
       <div class="input-group">
-        <span class="input-group-text">First and last name</span>
-        <input type="text" aria-label="First name" class="form-control" />
-        <input type="text" aria-label="Last name" class="form-control" />
+        <input type="date" aria-label="First name" class="form-control date" />
+        <input type="time" aria-label="Last name" class="form-control time" />
+        <button class="btn btn-outline-secondary submitButton" type="submit">Button</button>
+      </div>
+
+      <div class="container w-100 output d-flex justify-content-evenly mt-5">
+        <span class="days">50days</span>
+        <span class="hours">5hours</span>
+        <span class="minutes">10minutes</span>
+        <span class="seconds">50second</span>
       </div>
     </div>
+
+    <script src="./app.js"></script>
   </body>
 </html>
