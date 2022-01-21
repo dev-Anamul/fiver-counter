@@ -3,7 +3,7 @@ body {
   height: 100vh;
   display: flex;
 }
-.output > * {
+.output > span {
   font-size: 20px;
   font-family: sans-serif;
   font-weight: bold;
